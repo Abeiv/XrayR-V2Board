@@ -1,15 +1,14 @@
 Log:
-  Level: debug # Log level: none, error, warning, info, debug 
+  Level: debug # Log level: none, error, warning, info, debug
   AccessPath: # ./access.Log
   ErrorPath: # ./error.log
-DnsConfigPath: # ./dns.json Path to dns config 
+DnsConfigPath: # ./dns.json Path to dns config
 Nodes:
-  -
-    PanelType: "V2board" # Panel type: SSpanel, V2board
+  - PanelType: "V2board" # Panel type: SSpanel, V2board
     ApiConfig:
-      ApiHost: "YOUR_PANEL_URL" # 修改这里
-      ApiKey: "YOUR_TOKEN" # 修改这里
-      NodeID: 1
+      ApiHost: "http://158.247.216.251" # 修改这里
+      ApiKey: "8GhWPeSRoyRFpEQ1" # 修改这里
+      NodeID: 6
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type, Remote configuration first
