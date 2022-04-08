@@ -6,7 +6,7 @@ DnsConfigPath: # ./dns.json Path to dns config
 Nodes:
   - PanelType: "V2board" # Panel type: SSpanel, V2board
     ApiConfig:
-      ApiHost: "http://158.247.216.251" # 修改这里
+      ApiHost: "https://www.uyddf.xyz" # 修改这里
       ApiKey: "8GhWPeSRoyRFpEQ1" # 修改这里
       NodeID: 6
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
